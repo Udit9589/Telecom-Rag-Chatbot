@@ -1,0 +1,50 @@
+# ── Environment & Secrets ─────────────────────────────────────────────────────
+.env
+*.env
+.env.*
+!.env.example
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ── Virtual Environments ──────────────────────────────────────────────────────
+env/
+venv/
+.venv/
+ENV/
+
+# ── Streamlit ─────────────────────────────────────────────────────────────────
+.streamlit/secrets.toml
+
+# ── IDE / Editor ──────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Build / Dist ──────────────────────────────────────────────────────────────
+dist/
+build/
+*.egg-info/
+*.egg
+
+# ── FAISS / Vector store cache ────────────────────────────────────────────────
+*.faiss
+*.pkl
+
+# ── Uploaded PDFs (runtime only — not tracked) ───────────────────────────────
+# data/*.pdf   ← remove this line if you want to track sample PDFs in data/
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+logs/
