@@ -6,7 +6,8 @@ Upload your own PDFs or add web links — the chatbot builds a vector knowledge 
 
 ## Architecture
 
-![Architecture](sample_output/Telecom_RAG_Chatbot.png)
+
+![Telecom RAG Chatbot](Telecom_RAG_Chatbot.png)
 ---
 
 
