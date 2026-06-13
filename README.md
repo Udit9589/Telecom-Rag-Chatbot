@@ -4,6 +4,9 @@ A Retrieval-Augmented Generation (RAG) chatbot built with **LangChain**, **OpenA
 
 Upload your own PDFs or add web links — the chatbot builds a vector knowledge base on the fly and answers questions grounded in your documents.
 
+## Architecture
+
+![Telecom RAG Chatbot](sample_output/Telecom_RAG_Chatbot.png)
 ---
 
 ## 🖼️ Preview
